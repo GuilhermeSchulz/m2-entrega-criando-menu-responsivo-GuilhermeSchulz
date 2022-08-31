@@ -1,0 +1,39 @@
+.header__container__logo{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: var(--padding-1);
+    z-index: 1;
+    background-color: var(--white);
+    box-shadow: var(--shadow);
+}
+.header__container__img{
+    width: 40%;
+    object-fit: contain;
+}
+.header__mobile__img{
+    width: var(--img-width);
+}
+.header__menu__img{
+    width: var(--img-size);
+    height: var(--img-size);
+    border-radius: var(--border-radius-1);
+    border: 3px solid transparent;
+}
+.header__menu__form > button >img{
+    width: var(--img-form-size);
+
+}
+.header__profile__container >div {
+    width: var(--div-img-size);
+    height: var(--div-img-size);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: var(--border-radius-1);
+    background: linear-gradient(45deg, var(--orange-gradient) 0%, var(--yellow-gradient) 100%);;
+}
+.hidden__class{
+    display:none;
+}
