@@ -1,0 +1,24 @@
+:root{
+    --font-family: 'Roboto', sans-serif;
+    --primary-color: #364FC7;
+    --grey-1: #212529;
+    --grey-2: #868E96;
+    --grey-3: #ADB5BD;
+    --grey-4: #E9ECEF;
+    --grey-5: #F1F3F5;
+    --grey-6: #F8F9FA;
+    --white: #FFFFFF;
+    --orange-gradient: #e93f3a;
+    --yellow-gradient: #ffef37;
+    --text-size-1:  16px;
+    --text-size-2:  12px;
+    --shadow: 0px 4px 30px -10px rgba(0, 0, 0, 0.4);    
+    --border-radius-1: 50%;
+    --border-radius-2: 8px;
+    --border-radius-3: 1rem;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+}
