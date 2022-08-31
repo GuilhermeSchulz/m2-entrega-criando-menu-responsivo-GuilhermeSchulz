@@ -109,9 +109,16 @@
     align-items: center;
     gap: 1rem;
 }
+.header__menu__button{
+    background-color: transparent;
+    border: none;
+}
 
-.animation__class{
-    animation: MoveMenu 2s;
+.animation__class__open{
+    animation: MoveMenu 1.5s;
+}
+.animation__class__close{
+    animation: closeMenu 1.5s ;
 }
 .hidden__class{
     display:none;
@@ -121,7 +128,7 @@
             max-width: 25%;
         }
         .header__container__menu{
-            max-width: 80%;
+            max-width: 100%;
             justify-content: space-around;
         }
         .menu__button__submit{
@@ -159,10 +166,12 @@
         height: 10%;
         justify-content: center;
         border-radius: 0;
+        box-shadow: var(--shadow);
     }
     .header__container__menu{
         flex-direction: row;
         width: 85%;
+        box-shadow: none;
     }
     .header__container__nav>ul{
         flex-direction: row;
@@ -194,5 +203,13 @@
     }
     100%{
         transform: translateY(0%);
+    }
+}
+@keyframes closeMenu {
+    0%{
+        transform: translateY(0%);
+    }
+    100%{
+        transform: translateY(-100%);
     }
 }

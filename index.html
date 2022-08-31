@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./src/styles/reset.css">
     <link rel="stylesheet" href="./src/styles/GlobalStyles.css">
     <link rel="stylesheet" href="./src/styles/style.css">
+    <script type="module" defer src="./src/scripts/main.js"></script>
     <title>Menu Responsivo</title>
 </head>
 <body>
@@ -17,11 +18,13 @@
         <div class="header__container__logo">
             <img class="header__container__img" src="./src/img/Tech Blog.svg" alt="Logo Tech Blog">
             <div class="header__container_div">
-                <img src="./src/img/barra-de-menu.png" class="header__mobile__img hidden__class" alt="Botão de menu">
-                <img src="./src/img/botao-fechar.png" class="header__mobile__img " alt="Botão fechar menu">
+                <button class="header__menu__button">
+                    <img src="./src/img/barra-de-menu.png" class="header__mobile__img open__menu" alt="Botão de menu">
+                    <img src="./src/img/botao-fechar.png" class="header__mobile__img close__menu hidden__class" alt="Botão fechar menu">
+                </button>
             </div>
         </div>
-        <div class="header__container__menu">
+        <div class="header__container__menu hidden__class">
             <nav class="header__container__nav">
                 <ul>
                     <li>All</li>
