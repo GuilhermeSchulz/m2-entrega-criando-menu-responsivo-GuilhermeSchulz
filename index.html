@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/styles/reset.css">
+    <link rel="stylesheet" href="./src/styles/GlobalStyles.css">
+    <link rel="stylesheet" href="./src/styles/animation.css">
+    <link rel="stylesheet" href="./src/styles/buttons.css">
+    <link rel="stylesheet" href="./src/styles/form.css">
+    <link rel="stylesheet" href="./src/styles/images.css">
+    <link rel="stylesheet" href="./src/styles/containers.css">
+    <link rel="stylesheet" href="./src/styles/media-768px.css">
+    <link rel="stylesheet" href="./src/styles/media-1024px.css">
+    <script type="module" defer src="./src/scripts/main.js"></script>
+    <title>Menu Responsivo</title>
+</head>
+<body>
+    <header class="header__container">
+        <div class="header__container__logo">
+            <img class="header__container__img" src="./src/img/Tech Blog.svg" alt="Logo Tech Blog">
+            <div class="header__container_div">
+                <button class="header__menu__button">
+                    <img src="./src/img/barra-de-menu.png" class="header__mobile__img open__menu" alt="Botão de menu">
+                    <img src="./src/img/botao-fechar.png" class="header__mobile__img close__menu hidden__class" alt="Botão fechar menu">
+                </button>
+            </div>
+        </div>
+        <div class="header__container__menu hidden__class">
+            <nav class="header__container__nav">
+                <ul>
+                    <li><a href="#">All</a> </li>
+                    <li><a href="#">CSS</a> </li>
+                    <li><a href="#">Javascript</a> </li>
+                    <li><a href="#">Python</a> </li>
+                    <li><a href="#">Java</a> </li>
+                </ul>
+            </nav>
+            <form class="header__menu__form">
+                <input type="search" placeholder="Pesquisar Por" name="searchBar">
+                <button class="menu__button__submit" type="submit">
+                    <img src="./src/img/pesquisa.png" alt="Botão pesquisa">
+                </button>
+            </form>
+            <div class="header__profile__container">
+                <div>
+                    <img class="header__menu__img" src="./src/img/profile.png" alt="Foto Profile">
+                </div>
+                <h2 class="header__menu__h2">Samuel Leão</h2>
+            </div>
+        </div>
+    </header>
+</body>
+</html>

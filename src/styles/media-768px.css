@@ -1,0 +1,20 @@
+@media(min-width:768px){
+    .header__container__img{
+        max-width: 25%;
+    }
+    .header__container__menu{
+        max-width: 100%;
+        justify-content: space-around;
+    }
+    .menu__button__submit{
+        
+    }
+    .header__menu__form{
+        margin-bottom: var(--margin-botom-2);
+    }
+    .header__menu__form>input{
+    }
+    .header__profile__container{
+        margin-bottom: var(--margin-botom-2);
+    }
+}

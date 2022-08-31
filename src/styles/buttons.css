@@ -1,0 +1,12 @@
+.menu__button__submit{
+    background-color: transparent;
+    border: none;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header__menu__button{
+    background-color: transparent;
+    border: none;
+}

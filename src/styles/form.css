@@ -1,0 +1,19 @@
+.header__menu__form{
+    width: var(--form-width);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: var(--margin-bottom-1);
+    justify-content: flex-start;
+}
+.header__menu__form > input{
+    padding: var(--padding-2);
+    width: 100%;
+    border-radius: var(--border-radius-2);
+    border: none;
+    background-color: var(--grey-5);
+    padding-left: var(--padding-left-1);
+}
+.header__menu__form > input::placeholder{
+    color: var(--grey-3);
+}
