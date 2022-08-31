@@ -25,12 +25,12 @@
     height: 100%;
     justify-content: space-evenly;
 }
-.header__container__nav > ul > li{
+.header__container__nav > ul > li >a{
     font-size: var(--text-size-1);
     font-weight: var(--font-weight-medium);
     color: var(--grey-3);
 }
-.header__container__nav > ul > li:nth-child(1){
+.header__container__nav > ul > li:nth-child(1) >a{
     color: var(--grey-1);
 }
 .header__container__nav{
